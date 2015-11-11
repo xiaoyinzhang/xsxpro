@@ -1,0 +1,5 @@
+地址						状态	纬度	经度	是否精确查找	可信度	级别
+地址				OK			true		
+上海大学				OK	31.282512	121.464242	false	40	教育
+				INVALID_PARAMETERS	0	0	false	0	0
+				INVALID_PARAMETERS	0	0	false	0	0

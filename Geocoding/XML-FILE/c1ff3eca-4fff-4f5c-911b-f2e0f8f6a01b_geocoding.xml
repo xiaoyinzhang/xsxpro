@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<GeocoderSearchResponse> 
+	<status>OK</status>
+	<result>
+					<location>
+				<lat>31.210809</lat>
+				<lng>121.421229</lng>
+			</location>	
+			<precise>1</precise>
+			<confidence>70</confidence>
+			<level>地产小区</level>
+			</result>	
+</GeocoderSearchResponse>

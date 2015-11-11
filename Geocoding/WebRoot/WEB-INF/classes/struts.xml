@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<package name="shu.nova.control" extends="struts-default">
+		<action name="singleSearch" class="shu.nova.control.SearchSingle">
+			<result name="success">/singleSearchResult.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="exportData" class="shu.nova.control.ExportSearchResult">		
+			<result name="success">/exportSuccess.jsp</result>	
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="exportTexData" class="shu.nova.control.ExportTxtData">		
+			<result name="success">/exportTxtSuccess.jsp</result>	
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="welcome" class="shu.nova.control.Welcome">
+			<result name="success">/index.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>	
+	</package>	
+</struts>    
