@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Wed Apr 09 14:05:49 CST 2014
+genBasicCompId=true
+sessionFactoryName=shu.cloud.model.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=true
+springDaoFile=
+useJavaTypes=true
+keyGenerator=increment
+genVersionTag=true
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/HandleGeoTask2/hibernate.reveng.xml
+configFile=/HandleGeoTask/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=shu.cloud.model.BaseHibernateDAO
